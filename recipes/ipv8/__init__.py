@@ -12,7 +12,7 @@ class LocalIPV8Recipe(PythonRecipe):
 
     url = 'git+https://github.com/Tribler/py-ipv8.git'
 
-    depends = ['cryptography', 'libsodium', 'netifaces',
+    depends = ['cryptography', 'libsodium', 'netifaces', 'pyasn1',
                'python3', 'setuptools', 'twisted', 'lib2to3', 'libnacl', 'sqlite3', 'decorator', 'libnacl', 'six'
               ]
 
